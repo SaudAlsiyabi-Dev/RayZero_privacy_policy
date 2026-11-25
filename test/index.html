@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squash: join the test</title>
+<meta name="description" content="Help test Squash, a tap-to-squash game with pets, quizzes and boss fights, before it comes to Google Play.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#fbf7ee;--fg:#2b2418;--dim:#6b5e48;--card:#ffffff;--line:#e3d9c3;--accent:#2f7d3a;--accentfg:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1a14;--fg:#f1e9d8;--dim:#bdb094;--card:#28241b;--line:#40392b;--accent:#7fd18b;--accentfg:#12240f}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.25rem 1rem 3rem}
+h1{font-size:1.9rem;line-height:1.2;margin:.25rem 0 .5rem}
+h2{font-size:1.3rem;line-height:1.3;margin:2.2rem 0 .5rem}
+p{margin:.6rem 0}
+ul,ol{margin:.5rem 0;padding-left:1.3rem}
+li{margin:.3rem 0}
+a{color:var(--accent)}
+.hero{display:flex;gap:1rem;align-items:center;margin-top:.5rem}
+.hero img{width:88px;height:88px;border-radius:20px;flex:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.hero p{margin:0;color:var(--dim)}
+.banner{width:100%;height:auto;border-radius:12px;margin:1rem 0;display:block}
+.btn{display:inline-block;background:var(--accent);color:var(--accentfg);border-radius:10px;padding:.7rem 1.2rem;text-decoration:none;font-weight:700}
+.shots{display:flex;gap:.75rem;overflow-x:auto;padding:.25rem 0 .75rem;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+.shots img{height:26rem;width:auto;border-radius:14px;flex:none;scroll-snap-align:start;border:1px solid var(--line)}
+.box{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:8px;padding:.75rem 1rem;margin:1rem 0}
+.box p{margin:.25rem 0}
+.formwrap{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.5rem;margin:1rem 0}
+.formwrap iframe{width:100%;height:760px;border:0;border-radius:8px;background:#fff}
+.small{font-size:.92rem;color:var(--dim)}
+@media (max-width:560px){body{font-size:16px}h1{font-size:1.55rem}.shots img{height:22rem}}
+</style>
+</head>
+<body>
+<main>
+
+<div class="hero">
+  <img src="img/icon.png" alt="Squash app icon" width="88" height="88">
+  <div>
+    <h1>Help us test Squash</h1>
+    <p>A game by Ray Zero, coming soon to Google Play</p>
+  </div>
+</div>
+
+<img class="banner" src="img/banner.jpg" alt="Squash: tap the flies, collect pets, beat the bosses" width="1024" height="500">
+
+<p>Squash is a colourful tap-to-squash game for kids and families. Flies buzz across the screen and you tap them before they get away. Play through lots of levels, collect and dress up pets, and take on boss fights.</p>
+
+<p><a class="btn" href="#join">Join the test</a></p>
+
+<h2>What is in the game</h2>
+<ul>
+  <li><strong>Squash the flies</strong> on many levels, with combos and power-ups.</li>
+  <li><strong>Brain Swarm</strong>: a quiz mode where you squash the fly that carries the right answer (sums, times tables, numbers, shapes and counting).</li>
+  <li><strong>Pets</strong> to collect, level up and dress with hats, glasses, scarves and more.</li>
+  <li><strong>Boss Rush</strong>, special abilities, different looks for the menus and a Royal Pass with rewards.</li>
+  <li>Made for children and families.</li>
+</ul>
+
+<h2>A peek at the game</h2>
+<div class="shots" aria-label="Game screenshots">
+  <img src="img/01_home.jpg" alt="Home screen" loading="lazy">
+  <img src="img/02_level.jpg" alt="Squashing flies in a level" loading="lazy">
+  <img src="img/03_brain_swarm.jpg" alt="Brain Swarm quiz mode" loading="lazy">
+  <img src="img/04_pets.jpg" alt="Collecting pets" loading="lazy">
+  <img src="img/05_wardrobe.jpg" alt="Pet wardrobe" loading="lazy">
+  <img src="img/06_boss_rush.jpg" alt="Boss Rush" loading="lazy">
+  <img src="img/07_abilities.jpg" alt="Special abilities" loading="lazy">
+  <img src="img/08_themes.jpg" alt="Menu themes" loading="lazy">
+</div>
+
+<h2 id="join">Join the test</h2>
+<p>Google asks every new game to be tried by real people for two weeks before it can be published. You can help in a few minutes:</p>
+<ol>
+  <li>Fill in the form below with your name and your <strong>Gmail address</strong> (the Google account you use on your Android phone).</li>
+  <li>We will email you an invitation with a link. Open it on your phone and tap <strong>Become a tester</strong>.</li>
+  <li>Install Squash from Google Play and <strong>keep it installed for 14 days</strong>. Please open it and play a bit now and then.</li>
+  <li>Tell us anything that looks wrong or confusing. You can just reply to our email.</li>
+</ol>
+
+<div class="box">
+  <p><strong>You need</strong> an Android phone and a Google (Gmail) account. Please sign up as an adult. Children can play on a parent's phone.</p>
+</div>
+
+<div class="formwrap">
+  <iframe id="signup" title="Sign-up form" src="about:blank" loading="lazy">Loading…</iframe>
+</div>
+<p class="small" id="formlink" hidden>Form not showing? <a id="formhref" href="#" target="_blank" rel="noopener">Open it in a new page</a>.</p>
+
+<h2>Your details</h2>
+<p class="small">We ask for your name and Gmail address only to send you the test invitation. They are stored in the developer's private Google account, are not shared with anyone, and are deleted when the test ends. Playing the game itself collects no personal details from you beyond what the <a href="https://saudalsiyabi-dev.github.io/RayZero_privacy_policy/">privacy policy</a> describes. Questions: <a href="mailto:saudalsiyabi04@gmail.com">saudalsiyabi04@gmail.com</a>.</p>
+
+</main>
+<script>
+// Paste the Google Form's address here (the one that ends in /viewform).
+var FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfRvjYxk_u36CfTkFmSvHx9QopJqa4zqURoYEroc1_GDsQGnQ/viewform";
+(function () {
+  var f = document.getElementById("signup");
+  if (!FORM_URL) {
+    f.parentNode.innerHTML = '<p style="padding:1rem;margin:0">The sign-up form opens soon. Please check back shortly.</p>';
+    return;
+  }
+  f.src = FORM_URL + (FORM_URL.indexOf("?") < 0 ? "?" : "&") + "embedded=true";
+  document.getElementById("formhref").href = FORM_URL;
+  document.getElementById("formlink").hidden = false;
+})();
+</script>
+</body>
+</html>
