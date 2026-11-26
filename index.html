@@ -77,7 +77,7 @@ th{background:var(--card)}
 <div class="tw"><table><thead><tr><th>What</th><th>When</th><th>Who receives it</th><th>Why</th></tr></thead><tbody>
 <tr><td data-label="What">Purchase information (product, price, order number) and technical data (device model, Android version, an approximate place worked out from the IP address, crash and performance information, a device identifier)</td><td data-label="When">When the game connects to the store: only on a phone that has bought something before, or when a shop screen is opened, or when a grown-up approves a purchase</td><td data-label="Who receives it">Google Play Billing and <strong>Unity</strong> (Unity In-App Purchasing)</td><td data-label="Why">To sell and deliver purchases. Payment details stay with Google. We never see them.</td></tr>
 <tr><td data-label="What">A request for a reward video, with technical data (IP address, ad interaction, diagnostics, an app-set identifier)</td><td data-label="When">Only after a grown-up answered the question and the player opened "Free Rewards"</td><td data-label="Who receives it"><strong>Google AdMob</strong> (child-directed, G-rated, not personalised)</td><td data-label="Why">To show the video and to pay the reward.</td></tr>
-<tr><td data-label="What">The best scores, with the made-up name, the picture and frame ids, the level, and an anonymous online player ID made by Unity</td><td data-label="When">Only after a grown-up switched on the online leaderboards (they are off by default). Then when a record improves and when the leaderboards screen opens.</td><td data-label="Who receives it"><strong>Unity</strong> (Authentication and Leaderboards)</td><td data-label="Why">So players can see rankings.</td></tr>
+<tr><td data-label="What">The best scores, with the made-up name, the picture and frame ids, the level, and an anonymous online player ID made by Google Firebase (the leaderboard service)</td><td data-label="When">Only after a grown-up switched on the online leaderboards (they are off by default). Then when a record improves and when the leaderboards screen opens.</td><td data-label="Who receives it"><strong>Google Firebase</strong> (leaderboards) and <strong>Unity</strong> (accounts)</td><td data-label="Why">So players can see rankings.</td></tr>
 <tr><td data-label="What">The sign-in ID and a password chosen by a grown-up</td><td data-label="When">Only if a grown-up creates an account (optional)</td><td data-label="Who receives it"><strong>Unity Authentication</strong></td><td data-label="Why">To use the same ID on another phone.</td></tr>
 </tbody></table></div>
 <p>We do not use any analytics or crash-reporting library of our own, we switch off Unity's own analytics, and we do not follow players across other apps or websites.</p>
@@ -122,7 +122,8 @@ th{background:var(--card)}
 <h2>11. Other companies</h2>
 <ul>
 <li>Google Play Billing, Google AdMob and Google Play services: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Unity (In-App Purchasing, Authentication, Leaderboards): <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+<li>Unity (In-App Purchasing, Authentication): <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+<li>Google Firebase (leaderboards): <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
 <li>Apple App Store (only if an iPhone version is added): Apple's own policy.</li>
 </ul>
 <p>Data may be processed in countries other than yours, for example where Google and Unity run their servers. They describe their safeguards in their policies.</p>
